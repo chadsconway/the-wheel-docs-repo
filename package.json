@@ -1,0 +1,23 @@
+{
+  "name": "the_wheel_docs",
+  "version": "0.0.1",
+  "description": "Documentation for my educational creational project (reinventing) THE WHEEL",
+  "main": "index.js",
+  "authors": {
+    "name": "ChadSconway",
+    "email": "wheel@nextdaycode.com"
+  },
+  "repository": "https://github.com/chadsconway/the-wheel-docs.git/the_wheel_docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.8.2",
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "vuetify": "^2.4.9"
+  }
+}
